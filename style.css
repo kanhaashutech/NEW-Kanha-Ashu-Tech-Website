@@ -583,14 +583,14 @@ body {
 }
 
 .testimonial-box .testimonial .txt-test h2 {
-  background: linear-gradient(#ff1616,#ff0059);
+  background: linear-gradient(#ff1616, #ff0059);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .testimonial-box .testimonial .txt-test h3,
 h5 {
-   color: rgb(130, 33, 33);
+  color: rgb(130, 33, 33);
 }
 
 .testimonial-box .testimonial .txt-test p {
@@ -609,7 +609,7 @@ h5 {
   margin-top: 30px;
   /* border: 2px solid rgb(255, 145, 0); */
   /* background-color: #fff3f3; */
-  
+
   background-image: var(--gradient);
   /* background: linear-gradient(#ff7b0fd4,#ffffff); */
   color: #ffffff;
@@ -666,12 +666,12 @@ h5 {
     margin-top: 40px;
   }
 
-   .testimonial-box .testimonial .txt-test h2 {
-    background: linear-gradient(#ff1616,#ff0059);
+  .testimonial-box .testimonial .txt-test h2 {
+    background: linear-gradient(#ff1616, #ff0059);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+
   .testimonial-box .testimonial .txt-test h3,
   h5 {
     font-size: 13px;
@@ -689,13 +689,13 @@ h5 {
     text-align: left;
   }
 
-.testimonial button {
+  .testimonial button {
     /* appearance: auto; */
     /* height: 40px; */
     margin-top: 30px;
     /* border: 2px solid rgb(255, 145, 0); */
     /* background-color: #fff3f3; */
-    
+
     background-image: var(--gradient);
     /* background: linear-gradient(#ff7b0fd4,#ffffff); */
     color: #ffffff;
@@ -727,26 +727,29 @@ h5 {
     flex-direction: column;
     align-items: center;
   }
- .testimonial-box p{
+
+  .testimonial-box p {
     margin: 5px;
   }
-  .testimonial-box .testimonial .vid-test{
+
+  .testimonial-box .testimonial .vid-test {
     height: 250;
-   
+
   }
 
-  .testimonial-box .testimonial .vid-test iframe{
+  .testimonial-box .testimonial .vid-test iframe {
     height: 450px;
-     border-radius: 15px;
+    border-radius: 15px;
     /* margin: 20px; */
   }
-  .testimonial-box .testimonial .txt-test{
+
+  .testimonial-box .testimonial .txt-test {
     display: flex;
     flex-direction: column;
     margin-left: 21px;
-   padding: 0px;
-/*     padding-right: 25px; */
-    padding-right:20px;
+    padding: 0px;
+    /*     padding-right: 25px; */
+    padding-right: 20px;
     /* margin-right: 20px; */
     width: 90%;
     /* margin: 5px; */
@@ -754,25 +757,28 @@ h5 {
     /* margin: -15px; */
   }
 
-  .testimonial-box .testimonial .txt-test h2{
+  .testimonial-box .testimonial .txt-test h2 {
     font-size: 3rem;
-    
+
   }
-  .testimonial-box .testimonial .txt-test h3,h5{
+
+  .testimonial-box .testimonial .txt-test h3,
+  h5 {
     font-size: 1.3rem;
   }
 
-  .testimonial-box .testimonial .txt-test .btn-test{
+  .testimonial-box .testimonial .txt-test .btn-test {
     margin: 15px;
     /* margin-right: 20px; */
   }
-   .testimonial button {
+
+  .testimonial button {
     /* appearance: auto; */
     /* height: 40px; */
     margin-top: 30px;
     /* border: 2px solid rgb(255, 145, 0); */
     /* background-color: #fff3f3; */
-    
+
     background-image: var(--gradient);
     /* background: linear-gradient(#ff7b0fd4,#ffffff); */
     color: #ffffff;
@@ -1868,3 +1874,141 @@ textarea.input-field {
   color: #ffffff;
   background-color: #e90606;
 }
+
+
+
+/*======================------------------ privacy policy page -------------------------======================== */
+
+
+
+.privacy-policy {
+  padding: 2rem 13rem;
+  margin-top: 8rem;
+}
+
+.privacy-policy h1 {
+  color: rgb(0, 0, 0);
+}
+
+.privacy-policy .pp-heading {
+  /* font-size: 5rem; */
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(45deg, #01c4ff, #0058dc, #00c3ff);
+  background-clip: text;
+}
+.pp-btn{
+  
+  margin: auto;
+  margin-top: 2rem;
+  display: none;
+}
+
+@media screen and (max-width:990px) {
+  .privacy-policy {
+    padding: 1rem 2.8rem;
+  }
+
+  .privacy-policy .pp-heading {
+    font-size: 2.8rem;
+  }
+
+  .privacy-policy h1 {
+    font-size: 2.5rem;
+  }
+
+  .pp-btn {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+  }
+}
+
+/*---------------------------------- terms and condition -------------------------------*/
+
+.term-and-condition{
+  padding: 2rem 13rem;
+  margin-top: 8rem;
+
+}
+
+.term-and-condition h1{
+  color: black;
+}
+
+.term-and-condition h3{
+  color: #4f4f4f;
+}
+.term-and-condition .tnc-heading{
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(45deg, #01c4ff, #0058dc, #00c3ff);
+  background-clip: text;
+}
+
+
+@media screen and (max-width:990px) {
+  .term-and-condition{
+    padding: 1rem 2.8rem;
+  }
+
+  
+  .term-and-condition .tnc-heading {
+    font-size: 2.8rem;
+  }
+
+  .term-and-condition h1 {
+    font-size: 2.5rem;
+  }
+
+}
+
+/*----------------------------------   refund and camncellation         ================================ */
+
+.refund-and-cancellation{
+  padding: 2rem 13rem;
+  margin-top: 8rem;
+
+}
+.refund-and-cancellation h1{
+  color: black;
+}
+
+.refund-and-cancellation h3{
+  color: #4f4f4f;
+}
+
+.refund-and-cancellation .rnc-heading{
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(45deg, #01c4ff, #0058dc, #00c3ff);
+  background-clip: text;
+
+}
+
+@media screen and (max-width:990px) {
+  .refund-and-cancellation{
+    padding: 1rem 2.8rem;
+  }
+
+  
+  .refund-and-cancellation .rnc-heading {
+    font-size: 2.8rem;
+  }
+
+  .refund-and-cancellation h1 {
+    font-size: 2.5rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
