@@ -280,13 +280,17 @@ body {
 
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
-  background-color: var(--light-gray);
+  background:radial-gradient(#40f2ff,#bcfdff,#FBF9F9,#FBF9F9);
+  border-radius: 150rem;
+ 
+  /* background-color: var(--light-gray); */
 }
 
 .img-cover {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   object-fit: cover;
+  margin: auto;
 }
 
 
@@ -871,7 +875,10 @@ h5 {
 }
 
 .about-item ion-icon {
-  color: var(--red-crayola);
+  /* color change 
+   */
+  color: #0fafff;
+  /* color: var(--red-crayola); */
   flex-shrink: 0;
   margin-block-start: 2px;
 }
