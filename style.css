@@ -280,9 +280,9 @@ body {
 
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
-  background:radial-gradient(#40f2ff,#bcfdff,#FBF9F9,#FBF9F9);
+  background: radial-gradient(#40f2ff, #bcfdff, #FBF9F9, #FBF9F9);
   border-radius: 150rem;
- 
+
   /* background-color: var(--light-gray); */
 }
 
@@ -648,9 +648,10 @@ h5 {
 
 
   .hero-title {
- 
-  font-size: 4.5rem;
-}
+
+    font-size: 4.5rem;
+  }
+
   .testimonial-box .testimonial {
     display: flex;
     justify-content: space-between;
@@ -725,12 +726,14 @@ h5 {
   }
 }
 
+@media (max-width:570px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+}
 
 @media (min-width:300px) and (max-width:570px) {
-.hero-title {
- 
-  font-size: 3.5rem;
-}
+
   .testimonial-box {
     height: 120rem;
   }
@@ -1913,8 +1916,9 @@ textarea.input-field {
   background: linear-gradient(45deg, #01c4ff, #0058dc, #00c3ff);
   background-clip: text;
 }
-.pp-btn{
-  
+
+.pp-btn {
+
   margin: auto;
   margin-top: 2rem;
   display: none;
@@ -1942,20 +1946,21 @@ textarea.input-field {
 
 /*---------------------------------- terms and condition -------------------------------*/
 
-.term-and-condition{
+.term-and-condition {
   padding: 2rem 13rem;
   margin-top: 8rem;
 
 }
 
-.term-and-condition h1{
+.term-and-condition h1 {
   color: black;
 }
 
-.term-and-condition h3{
+.term-and-condition h3 {
   color: #4f4f4f;
 }
-.term-and-condition .tnc-heading{
+
+.term-and-condition .tnc-heading {
   text-align: center;
   color: transparent;
   background: linear-gradient(45deg, #01c4ff, #0058dc, #00c3ff);
@@ -1964,11 +1969,11 @@ textarea.input-field {
 
 
 @media screen and (max-width:990px) {
-  .term-and-condition{
+  .term-and-condition {
     padding: 1rem 2.8rem;
   }
 
-  
+
   .term-and-condition .tnc-heading {
     font-size: 2.8rem;
   }
@@ -1981,20 +1986,21 @@ textarea.input-field {
 
 /*----------------------------------   refund and camncellation         ================================ */
 
-.refund-and-cancellation{
+.refund-and-cancellation {
   padding: 2rem 13rem;
   margin-top: 8rem;
 
 }
-.refund-and-cancellation h1{
+
+.refund-and-cancellation h1 {
   color: black;
 }
 
-.refund-and-cancellation h3{
+.refund-and-cancellation h3 {
   color: #4f4f4f;
 }
 
-.refund-and-cancellation .rnc-heading{
+.refund-and-cancellation .rnc-heading {
   text-align: center;
   color: transparent;
   background: linear-gradient(45deg, #01c4ff, #0058dc, #00c3ff);
@@ -2003,11 +2009,11 @@ textarea.input-field {
 }
 
 @media screen and (max-width:990px) {
-  .refund-and-cancellation{
+  .refund-and-cancellation {
     padding: 1rem 2.8rem;
   }
 
-  
+
   .refund-and-cancellation .rnc-heading {
     font-size: 2.8rem;
   }
@@ -2017,14 +2023,3 @@ textarea.input-field {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
