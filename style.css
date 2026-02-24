@@ -646,6 +646,11 @@ h5 {
 
 @media (min-width:570px) and (max-width:820px) {
 
+
+  .hero-title {
+ 
+  font-size: 4.5rem;
+}
   .testimonial-box .testimonial {
     display: flex;
     justify-content: space-between;
@@ -722,7 +727,10 @@ h5 {
 
 
 @media (min-width:300px) and (max-width:570px) {
-
+.hero-title {
+ 
+  font-size: 3.5rem;
+}
   .testimonial-box {
     height: 120rem;
   }
