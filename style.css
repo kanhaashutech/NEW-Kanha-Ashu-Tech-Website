@@ -1204,6 +1204,11 @@ textarea.input-field {
 .copyright {
   font-size: var(--fs-6);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
 }
 
 .copyright-link {

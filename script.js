@@ -39,10 +39,9 @@ const closeNavbar = function () {
 addEventOnElem(navbarLinks, "click", closeNavbar);
 
 
-
 /**
  * header active
- */
+*/
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
@@ -56,3 +55,8 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+
+
+// year at footer
+  document.getElementById("year").textContent = new Date().getFullYear();
