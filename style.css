@@ -29,7 +29,7 @@
   --safety-orange: hsl(25, 100%, 50%);
   --lavender-gray: hsl(230, 19%, 81%);
   --persian-rose: hsl(328, 100%, 59%);
-  --red-crayola: hsl(341, 100%, 49%);
+  --red-crayola: hsl(21, 100%, 57%);
   --eerie-black: hsl(240, 6%, 10%);
   --light-gray: hsl(0, 0%, 80%);
   --cultured-2: hsl(210, 60%, 98%);
@@ -280,7 +280,7 @@ body {
 
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
-  background: radial-gradient(#40f2ff, #bcfdff, #FBF9F9, #FBF9F9);
+  background: radial-gradient(#ff9640, #ffeee3, #FBF9F9, #FBF9F9);
   border-radius: 150rem;
 
   /* background-color: var(--light-gray); */
@@ -889,7 +889,7 @@ h5 {
 .about-item ion-icon {
   /* color change 
    */
-  color: #0fafff;
+  color: #ff7e33;
   /* color: var(--red-crayola); */
   flex-shrink: 0;
   margin-block-start: 2px;
@@ -1797,7 +1797,7 @@ textarea.input-field {
 
 .footer .box-container .box p i {
   padding-right: 1rem;
-  color: #e90606;
+  color: #e94a06;
 }
 
 .footer .box-container .box a {
@@ -1808,7 +1808,7 @@ textarea.input-field {
 }
 
 .footer .box-container .box a:hover {
-  color: #e90606;
+  color: #e95206;
 }
 
 .footer .box-container .box .share {
